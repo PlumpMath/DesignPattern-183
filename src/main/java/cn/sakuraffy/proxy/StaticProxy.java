@@ -13,9 +13,9 @@ public class StaticProxy implements Rentable {
 
 	@Override
 	public void rent() {
-		System.out.println("---static proxy start----");
+		System.out.println("---visit house----");
 		host.rent();
-		System.out.println("---static proxy end----");
+		System.out.println("---get cost----");
 	}
 	
 }
